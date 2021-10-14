@@ -72,11 +72,11 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
     }
-    // {
-    //   skillName: "docker",
-    //   fontAwesomeClassname: "fab fa-docker"
-    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -115,7 +115,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "65%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Programming",
@@ -185,13 +185,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/leaderboard1.jpg"),
-      projectName: "Leader Board",
+      image: require("./assets/images/istockphoto.jpg"),
+      projectName: "PICWIK University Website",
       // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://jadu-third-project.vercel.app/"
         }
       ]
     }
@@ -211,21 +211,21 @@ const achievementSection = {
     {
       title: "JaduJobs",
       subtitle: "Remote MERN Stack web development 4-months fellowship",
-      date: "Feb 2021 - July 2021",
+      date: "Feb 2021 - June 2021",
       image: require("./assets/images/jadu-jobs-logo1.png"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://drive.google.com/file/d/1GQuT6RYStAoUFdAoOHdyZSbgRLt97FvG/view?usp=sharing"
         }
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
       ]
     },
     {
@@ -235,10 +235,10 @@ const achievementSection = {
       date: "July 2021 - Present",
       image: require("./assets/images/devnation.png"),
       footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+        // {
+        //   name: "View Google Assistant Action",
+        //   url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        // }
       ]
     },
 
@@ -249,11 +249,11 @@ const achievementSection = {
       date: "July 2021 - Present",
       image: require("./assets/images/Logo-Black.png"),
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        // {name: "Certification", url: ""},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
       ]
     }
   ],
