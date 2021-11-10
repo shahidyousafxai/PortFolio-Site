@@ -6,6 +6,11 @@
   line-height: normal;
   margin: 0px;
 }
+.achievement-cards-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 .achievement-subtitle {
   text-transform: uppercase;
   margin: 0px;

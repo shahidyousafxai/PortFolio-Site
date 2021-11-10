@@ -17,7 +17,7 @@ const greeting = {
     "A passionate Software Engineer 🚀 having an Academic experience of building Web applications with HTML / CSS /JavaScript."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Tbj1tuNQqs4PWpVn00eNhVXWlHFKs8UR/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1EJrSKMi6unK3VPMYvJQji33uqfd4Utxf/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -29,8 +29,6 @@ const socialMediaLinks = {
   gmail: "shahid.bahadur207@amalacademy.org",
   facebook: "https://www.facebook.com/ShahidYousafxai98",
   medium: "https://shahidyousafxai.medium.com/",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
 
@@ -44,9 +42,6 @@ const skillsSection = {
       "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
     )
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -91,19 +86,12 @@ const educationInfo = {
       logo: require("./assets/images/logo.png"),
       subHeader: "Bachelor in Software Engineering",
       duration: "September 2017 - October 2021"
-      // desc: "Participated in the research of XXX and published 3 papers.",
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
     },
     {
       schoolName: "Iqra APS & CS",
       logo: require("./assets/images/small-logo-grey.png"),
       subHeader: "Faculty of Science Pre-Engineering",
       duration: "September 2014 - April 2016"
-      // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -169,7 +157,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME PROJECTS THAT I HAVE BUILD",
   projects: [
     {
@@ -180,6 +168,10 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "http://weather-app-self.netlify.app"
+        },
+        {
+          name: "Visit GitHub",
+          url: "https://github.com/shahidyousafxai/Weather-App-Javascript"
         }
         //  you can add extra buttons here.
       ]
@@ -191,7 +183,56 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
+          url: "https://piwic-university.netlify.app"
+        },
+        {
+          name: "Visit GitHub",
+          url: "https://github.com/shahidyousafxai/Jadu-Third-Project"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/20945567.jpg"),
+      projectName: "Expense Tracker App",
+      // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
           url: "https://jadu-third-project.vercel.app/"
+        },
+        {
+          name: "Visit GitHub",
+          url: "https://github.com/shahidyousafxai/Expense_Tracker-ReactJS"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/43029.jpg"),
+      projectName: "Todo App React",
+      // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://todoapp-project-react.netlify.app"
+        },
+        {
+          name: "Visit GitHub",
+          url: "https://github.com/shahidyousafxai/Todo-App-ReactJS"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/43029.jpg"),
+      projectName: "Filterable Todo App",
+      // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://filterable-todolist.netlify.app"
+        },
+        {
+          name: "Visit GitHub",
+          url: "https://github.com/shahidyousafxai/Filterable-TodoApp-JavaScript"
         }
       ]
     }

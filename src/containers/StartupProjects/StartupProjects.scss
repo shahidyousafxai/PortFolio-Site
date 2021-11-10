@@ -25,6 +25,8 @@
   border-radius: 10px;
   border: 1px solid $lightBorder1;
   justify-content: center;
+  margin-bottom: 30px;
+  width: 380px;
 }
 .project-card-light {
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
@@ -57,9 +59,13 @@
 }
 
 .projects-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  // display: grid;
+  // grid-template-columns: repeat(3, 1fr);
+  // gap: 1rem 1rem;
 }
 
 .project-card-footer span.project-tag {

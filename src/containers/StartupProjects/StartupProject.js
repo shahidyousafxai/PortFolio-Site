@@ -82,6 +82,23 @@ export default function StartupProject() {
                         })}
                       </div>
                     ) : null}
+                    {project.GitHubLink ? (
+                      <div className="project-card-footer">
+                        {project.GitHubLink.map((link, i) => {
+                          return (
+                            <span
+                              key={i}
+                              className={
+                                isDark ? "dark-mode project-tag" : "project-tag"
+                              }
+                              onClick={() => openUrlInNewTab(link.url)}
+                            >
+                              {link.name}
+                            </span>
+                          );
+                        })}
+                      </div>
+                    ) : null}
                   </div>
                 </div>
               );
