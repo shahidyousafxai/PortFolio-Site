@@ -198,7 +198,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://jadu-third-project.vercel.app/"
+          url: "https://expensetrackerreactjs.netlify.app"
         },
         {
           name: "Visit GitHub",
