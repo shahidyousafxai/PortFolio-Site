@@ -17,7 +17,7 @@ const greeting = {
     "A passionate Software Engineer 🚀 having an Academic experience of building Web applications with HTML / CSS /JavaScript."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1EJrSKMi6unK3VPMYvJQji33uqfd4Utxf/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1iU5X-m6-mw0lVZ1NnBrRS4PS0e9ZEaEg/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -59,10 +59,6 @@ const skillsSection = {
     {
       skillName: "Reactjs",
       fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "SQL-Database",
-      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "Python",
@@ -287,7 +283,7 @@ const achievementSection = {
       title: "Amal Academy",
       subtitle:
         "Career Preparation fellowship where they train student in order to develop business skills e.g communication, leadership, problem solving, teamwork, etc.",
-      date: "July 2021 - Present",
+      date: "July 2021 - Oct 2021",
       image: require("./assets/images/Logo-Black.png"),
       footerLink: [
         // {name: "Certification", url: ""},
