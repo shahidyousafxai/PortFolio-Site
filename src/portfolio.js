@@ -99,7 +99,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "65%" //Insert relative proficiency in percentage
+      progressPercentage: "75%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Programming",
@@ -158,11 +158,11 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/weather.png"),
-      projectName: "Weather App",
+      projectName: "Weather App(JavaScript)",
       // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Live",
           url: "http://weather-app-self.netlify.app"
         },
         {
@@ -172,28 +172,28 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/istockphoto.jpg"),
-      projectName: "PICWIK University Website",
-      // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://piwic-university.netlify.app"
-        },
-        {
-          name: "Visit GitHub",
-          url: "https://github.com/shahidyousafxai/Jadu-Third-Project"
-        }
-      ]
-    },
+    // {
+    //   image: require("./assets/images/istockphoto.jpg"),
+    //   projectName: "PICWIK University Website",
+    //   // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://piwic-university.netlify.app"
+    //     },
+    //     {
+    //       name: "Visit GitHub",
+    //       url: "https://github.com/shahidyousafxai/Jadu-Third-Project"
+    //     }
+    //   ]
+    // },
     {
       image: require("./assets/images/20945567.jpg"),
-      projectName: "Expense Tracker App",
+      projectName: "Expense Tracker App(React)",
       // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Live",
           url: "https://expensetrackerreactjs.netlify.app"
         },
         {
@@ -204,11 +204,11 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/43029.jpg"),
-      projectName: "Todo App React",
+      projectName: "Todo App(React)",
       // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Live",
           url: "https://todoapp-project-react.netlify.app"
         },
         {
@@ -218,17 +218,17 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/43029.jpg"),
-      projectName: "Filterable Todo App",
+      image: require("./assets/images/weather.png"),
+      projectName: "Weather App(React)",
       // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "https://filterable-todolist.netlify.app"
+          name: "Live",
+          url: "https://openweather-react-application.netlify.app"
         },
         {
           name: "Visit GitHub",
-          url: "https://github.com/shahidyousafxai/Filterable-TodoApp-JavaScript"
+          url: "https://github.com/shahidyousafxai/Weather-App-React"
         }
       ]
     }
