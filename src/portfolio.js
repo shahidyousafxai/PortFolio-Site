@@ -71,6 +71,10 @@ const skillsSection = {
     {
       skillName: "GitHub",
       fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "Tailwind CSS",
+      fontAwesomeClassname: "fab fa-css3-alt"
     }
   ],
   display: true // Set false to hide this section, defaults to true
