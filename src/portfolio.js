@@ -53,11 +53,23 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
+      skillName: "Tailwind CSS",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "Ant-Design",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "Reactjs",
+      skillName: "React Js",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "React-Redux",
       fontAwesomeClassname: "fab fa-react"
     },
     {
@@ -73,9 +85,9 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-github"
     },
     {
-      skillName: "Tailwind CSS",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    }
+      skillName: "Node Js",
+      fontAwesomeClassname: "fab fa-node-js"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
