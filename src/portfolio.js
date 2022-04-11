@@ -14,7 +14,7 @@ const greeting = {
   username: "Shahid Bahadur",
   title: "Hi all, I'm Shahid Bahadur",
   subTitle: emoji(
-    "A passionate Software Engineer 🚀 having an Academic experience of building Web applications with HTML / CSS / JavaScript / ReactJS."
+    "A passionate Software Engineer 🚀 having an Industry experience of building Web applications with HTML / CSS / JavaScript / ReactJS."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1iU5X-m6-mw0lVZ1NnBrRS4PS0e9ZEaEg/view?usp=sharing", // Set to empty to hide the button
@@ -39,7 +39,7 @@ const skillsSection = {
   subTitle: "SOFTWARE ENGINEER WHO WANTS TO EXPLORE EVERY MERN STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
+      "⚡ Develop highly interactive Front end and Back end / User Interfaces for your web applications"
     )
   ],
 
@@ -87,6 +87,10 @@ const skillsSection = {
     {
       skillName: "Node Js",
       fontAwesomeClassname: "fab fa-node-js"
+    },
+    {
+      skillName: "MySQL",
+      fontAwesomeClassname: "fas fa-database"
     },
   ],
   display: true // Set false to hide this section, defaults to true
