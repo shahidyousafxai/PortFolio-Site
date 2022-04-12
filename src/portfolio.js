@@ -341,9 +341,16 @@ const blogSection = {
         "Git & GitHub (Branches, Merging Branches, Collaboration, Forking)",
       description:
         "Git is a high-quality version control system. Git is installed and maintained on your local system and gives you a self-contained record of your ongoing programming versions."
+    },
+    {
+      url: "https://medium.com/@shahidyousafxai/eating-that-frog-with-a-pomodoro-561666205dfc",
+      title:
+        "Eating that Frog with a Pomodoro",
+      description:
+        "The Pomodoro Technique is a time management system that encourages people to work with the time they have rather than against it."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 // Talks Sections
