@@ -296,10 +296,10 @@ const achievementSection = {
       date: "July 2021 - Present",
       image: require("./assets/images/devnation.png"),
       footerLink: [
-        // {
-        //   name: "View Google Assistant Action",
-        //   url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        // }
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/18nFaEDRV3aSscB1IdeDwME2us55msL4o/view?usp=sharing"
+        }
       ]
     },
 
