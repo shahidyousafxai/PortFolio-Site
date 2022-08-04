@@ -57,7 +57,7 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "Ant-Design",
+      skillName: "Material UI",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
@@ -71,10 +71,6 @@ const skillsSection = {
     {
       skillName: "React-Redux",
       fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "Python",
-      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "Git",
