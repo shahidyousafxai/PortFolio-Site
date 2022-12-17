@@ -131,8 +131,8 @@ const workExperiences = {
   experience: [
     {
       role: "Associate Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      company: "BITLogix (pvt) ltd",
+      companylogo: require("./assets/images/"),
       date: "Jan 2022 – Present",
       desc: "Frontend Web Development",
       descBullets: [
