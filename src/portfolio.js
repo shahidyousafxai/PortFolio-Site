@@ -14,10 +14,10 @@ const greeting = {
   username: "Shahid Bahadur",
   title: "Hi all, I'm Shahid Bahadur",
   subTitle: emoji(
-    "A passionate Software Engineer 🚀 having an Industry experience of building Web applications with JavaScript / ReactJS / NodeJS / Express JS."
+    "A passionate Software Engineer 🚀 having an Industry experience of building Web applications with JavaScript / ReactJS."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1RhlHhtHGS7uym5pkG8ZyACnOIoIEKFfX/view", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -26,8 +26,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/ShahidYousafxai",
   linkedin: "https://www.linkedin.com/in/shahidyousafxai/",
-  gmail: "shahid.bahadur207@amalacademy.org",
-  facebook: "https://www.facebook.com/ShahidYousafxai98",
+  gmail: "shahidbahadur1998@gmail.com",
   medium: "https://shahidyousafxai.medium.com/",
   display: true // Set true to display this section, defaults to false
 };
@@ -81,12 +80,8 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-github"
     },
     {
-      skillName: "Node Js",
-      fontAwesomeClassname: "fab fa-node-js"
-    },
-    {
-      skillName: "MySQL",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "React Native",
+      fontAwesomeClassname: "fab fa-react"
     },
   ],
   display: true // Set false to hide this section, defaults to true
@@ -131,129 +126,83 @@ const techStack = {
 
 // Work experience section
 
-// const workExperiences = {
-//   display: true, //Set it to true to show workExperiences Section
-//   experience: [
-//     {
-//       role: "Software Engineer",
-//       company: "Facebook",
-//       companylogo: require("./assets/images/facebookLogo.png"),
-//       date: "June 2018 – Present",
-//       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-//       descBullets: [
-//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-//       ]
-//     },
-//     {
-//       role: "Front-End Developer",
-//       company: "Quora",
-//       companylogo: require("./assets/images/quoraLogo.png"),
-//       date: "May 2017 – May 2018",
-//       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-//     },
-//     {
-//       role: "Software Engineer Intern",
-//       company: "Airbnb",
-//       companylogo: require("./assets/images/airbnbLogo.png"),
-//       date: "Jan 2015 – Sep 2015",
-//       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-//     }
-//   ]
-// };
+const workExperiences = {
+  display: true,
+  experience: [
+    {
+      role: "Associate Software Engineer",
+      company: "Facebook",
+      companylogo: require("./assets/images/facebookLogo.png"),
+      date: "Jan 2022 – Present",
+      desc: "Frontend Web Development",
+      descBullets: [
+        "Cooperated with Team member to build  projects.",
+        "Working with different technologies and understanding their work flow.",
+        "Worked in almost four projects to build thier frontend using different tech stack i.e React, React Native, MUI, Tailwind"
+      ]
+    }
+  ]
+};
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  showGithubProfile: "true", 
+  display: false 
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "SOME PROJECTS THAT I HAVE BUILD",
+  subtitle: "SOME PROJECTS THAT I HAVE WORKED IN",
   projects: [
     {
-      image: require("./assets/images/weather.png"),
-      projectName: "Weather App(JavaScript)",
-      // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Live",
-          url: "http://weather-app-self.netlify.app"
-        },
-        {
-          name: "Visit GitHub",
-          url: "https://github.com/shahidyousafxai/Weather-App-Javascript"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    // {
-    //   image: require("./assets/images/istockphoto.jpg"),
-    //   projectName: "PICWIK University Website",
-    //   // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    //   footerLink: [
-    //     {
-    //       name: "Visit Website",
-    //       url: "https://piwic-university.netlify.app"
-    //     },
-    //     {
-    //       name: "Visit GitHub",
-    //       url: "https://github.com/shahidyousafxai/Jadu-Third-Project"
-    //     }
-    //   ]
-    // },
-    {
-      image: require("./assets/images/20945567.jpg"),
-      projectName: "Expense Tracker App(React)",
-      // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Live",
-          url: "https://expensetrackerreactjs.netlify.app"
-        },
-        {
-          name: "Visit GitHub",
-          url: "https://github.com/shahidyousafxai/Expense_Tracker-ReactJS"
-        }
-      ]
+      image: require("./assets/images/"),
+      projectName: "Digital Invoice",
+      projectDesc: "Digital Invoice generating web application",
+//       footerLink: [
+//         {
+//           name: "Live",
+//           url: "http://weather-app-self.netlify.app"
+//         },
+//         {
+//           name: "Visit GitHub",
+//           url: "https://github.com/shahidyousafxai/Weather-App-Javascript"
+//         }
+//       ]
     },
     {
-      image: require("./assets/images/43029.jpg"),
-      projectName: "Todo App(React)",
-      // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Live",
-          url: "https://todoapp-project-react.netlify.app"
-        },
-        {
-          name: "Visit GitHub",
-          url: "https://github.com/shahidyousafxai/Todo-App-ReactJS"
-        }
-      ]
+      image: require("./assets/images/"),
+      projectName: ".NET Conf.",
+      projectDesc: "A web application for all the information and registeration to the .NET Event held by BITLogix (pvt) ltd Sponcered by Microsoft",
+//       footerLink: [
+//         {
+//           name: "Live",
+//           url: "https://todoapp-project-react.netlify.app"
+//         },
+//         {
+//           name: "Visit GitHub",
+//           url: "https://github.com/shahidyousafxai/Todo-App-ReactJS"
+//         }
+//       ]
     },
     {
-      image: require("./assets/images/weather.png"),
-      projectName: "Weather App(React)",
-      // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Live",
-          url: "https://openweather-react-application.netlify.app"
-        },
-        {
-          name: "Visit GitHub",
-          url: "https://github.com/shahidyousafxai/Weather-App-React"
-        }
-      ]
+      image: require("./assets/images/"),
+      projectName: "LeTribe (Mobile Application)",
+      projectDesc: "A React Native app where different clothing brands can create thier own store and sell thier product and outfits.",
+//       footerLink: [
+//         {
+//           name: "Live",
+//           url: "https://openweather-react-application.netlify.app"
+//         },
+//         {
+//           name: "Visit GitHub",
+//           url: "https://github.com/shahidyousafxai/Weather-App-React"
+//         }
+//       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 // Achievement Section
@@ -275,14 +224,6 @@ const achievementSection = {
           name: "Certification",
           url: "https://drive.google.com/file/d/1GQuT6RYStAoUFdAoOHdyZSbgRLt97FvG/view?usp=sharing"
         }
-        // {
-        //   name: "Award Letter",
-        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        // },
-        // {
-        //   name: "Google Code-in Blog",
-        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        // }
       ]
     },
     {
@@ -306,15 +247,10 @@ const achievementSection = {
       date: "July 2021 - Oct 2021",
       image: require("./assets/images/Logo-Black.png"),
       footerLink: [
-        // {name: "Certification", url: ""},
-        // {
-        //   name: "Final Project",
-        //   url: "https://pakistan-olx-1.firebaseapp.com/"
-        // }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Blogs Section
@@ -385,8 +321,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3043050865",
-  email_address: "shahid.bahadur207@amalacademy.org"
+  number: "03043050865",
+  email_address: "shahidbahadur1998@gmail.com"
 };
 
 // Twitter Section
@@ -403,7 +339,7 @@ export {
   skillsSection,
   educationInfo,
   techStack,
-  // workExperiences,
+  workExperiences,
   openSource,
   bigProjects,
   achievementSection,
