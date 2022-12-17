@@ -132,7 +132,7 @@ const workExperiences = {
     {
       role: "Associate Software Engineer",
       company: "BITLogix (pvt) ltd",
-      companylogo: require("./assets/images/"),
+      companylogo: require("./assets/images/bitlogix.svg"),
       date: "Jan 2022 – Present",
       desc: "Frontend Web Development",
       descBullets: [
@@ -157,7 +157,7 @@ const bigProjects = {
   subtitle: "SOME PROJECTS THAT I HAVE WORKED IN",
   projects: [
     {
-      image: require("./assets/images/"),
+      image: require("./assets/images/DigitalInvoice.jpeg"),
       projectName: "Digital Invoice",
       projectDesc: "Digital Invoice generating web application",
 //       footerLink: [
@@ -172,7 +172,7 @@ const bigProjects = {
 //       ]
     },
     {
-      image: require("./assets/images/"),
+      image: require("./assets/images/net-1.png"),
       projectName: ".NET Conf.",
       projectDesc: "A web application for all the information and registeration to the .NET Event held by BITLogix (pvt) ltd Sponcered by Microsoft",
 //       footerLink: [
@@ -187,7 +187,7 @@ const bigProjects = {
 //       ]
     },
     {
-      image: require("./assets/images/"),
+      image: require("./assets/images/clothing.jpeg"),
       projectName: "LeTribe (Mobile Application)",
       projectDesc: "A React Native app where different clothing brands can create thier own store and sell thier product and outfits.",
 //       footerLink: [
