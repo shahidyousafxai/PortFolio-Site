@@ -13,6 +13,11 @@
   display: inline-block;
   margin-right: 20px;
   margin-bottom: 20px;
+  padding-top: 10px;
+}
+.software-skill-inline:hover {
+  transform: scale(1.2,1.2);
+  transition: transform 0.2s;
 }
 
 .software-skill-inline > i {

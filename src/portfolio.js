@@ -1,13 +1,9 @@
-/* Change this file to get your personal Portfolio */
-
-// To change portfolio colors globally go to the  _globalColor.scss file
-
 import emoji from "react-easy-emoji";
 
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true 
 };
 
 const greeting = {
@@ -17,8 +13,8 @@ const greeting = {
     "A passionate Software Engineer 🚀 having an Industry experience of building Web applications with JavaScript / ReactJS."
   ),
   resumeLink:
-    "", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://drive.google.com/file/d/12y4FqFwVRYH2tY4O7AL281UmD0PNsZHX/view?usp=sharing", 
+  displayGreeting: true 
 };
 
 // Social Media Links
@@ -28,17 +24,17 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/shahidyousafxai/",
   gmail: "shahidbahadur1998@gmail.com",
   medium: "https://shahidyousafxai.medium.com/",
-  display: true // Set true to display this section, defaults to false
+  display: true 
 };
 
 // Skills Section
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "SOFTWARE ENGINEER WHO WANTS TO EXPLORE EVERY MERN STACK",
+  subTitle: "SOFTWARE ENGINEER WHO WANTS TO EXPLORE NEW TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end and Back end / User Interfaces for your web applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
     )
   ],
 
@@ -84,13 +80,13 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-react"
     },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true, 
   schools: [
     {
       schoolName: "University Of Science And Technology Bannu",
@@ -110,18 +106,18 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, 
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "75%" //Insert relative proficiency in percentage
+      Stack: "Frontend/Design", 
+      progressPercentage: "65%" 
     },
     {
       Stack: "Programming",
-      progressPercentage: "70%"
+      progressPercentage: "65%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false 
 };
 
 // Work experience section
@@ -175,38 +171,17 @@ const bigProjects = {
       image: require("./assets/images/net-1.png"),
       projectName: ".NET Conf.",
       projectDesc: "A web application for all the information and registeration to the .NET Event held by BITLogix (pvt) ltd Sponcered by Microsoft",
-//       footerLink: [
-//         {
-//           name: "Live",
-//           url: "https://todoapp-project-react.netlify.app"
-//         },
-//         {
-//           name: "Visit GitHub",
-//           url: "https://github.com/shahidyousafxai/Todo-App-ReactJS"
-//         }
-//       ]
     },
     {
       image: require("./assets/images/clothing.jpeg"),
       projectName: "LeTribe (Mobile Application)",
       projectDesc: "A React Native app where different clothing brands can create thier own store and sell thier product and outfits.",
-//       footerLink: [
-//         {
-//           name: "Live",
-//           url: "https://openweather-react-application.netlify.app"
-//         },
-//         {
-//           name: "Visit GitHub",
-//           url: "https://github.com/shahidyousafxai/Weather-App-React"
-//         }
-//       ]
     }
   ],
   display: true 
 };
 
 // Achievement Section
-// Include certificates, talks etc
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
@@ -301,20 +276,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
-};
-
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: false // Set false to hide this section, defaults to true
+  display: false 
 };
 
 const contactInfo = {
@@ -329,7 +291,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  display: false 
 };
 
 export {
@@ -345,7 +307,6 @@ export {
   achievementSection,
   blogSection,
   talkSection,
-  podcastSection,
   contactInfo,
   twitterDetails
 };

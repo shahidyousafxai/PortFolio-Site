@@ -8,6 +8,13 @@
   -webkit-border-radius: 25px;
   border-radius: 25px;
 }
+.meter:hover {
+  transform: scale(1.1, 1.1);
+  transition: transform 0.3s;
+  span{
+    background-color: #009900;
+  }
+}
 .meter > span {
   display: block;
   height: 100%;
